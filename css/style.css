@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.conteiner {
+  display: flex;
+  width: 1200px;
+}
+.left-side {
+  left: 0;
+  top: 0;
+  background-color: rgb(39, 39, 99);
+  color: white;
+  padding: 30px;
+}
+.right-side {
+  width: 600px;
+  margin-left: 50px;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.contact li a {
+  text-decoration: none;
+  color: inherit;
+}
+.contact {
+  text-decoration: underline;
+}
+.contact li a:hover,
+.contact li a:focus,
+.contact li a:active {
+  color: lawngreen;
+}
+.left-side li {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.w1 {
+  color: rgb(201, 194, 107);
+}
+.left-side figure {
+  margin: 0;
+}
+.contain {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain li {
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+}
+.contain-educ {
+  display: flex;
+  align-items: baseline;
+}
+.contain-study {
+  width: 400px;
+}
+.contain-st {
+  width: 200px;
+}
