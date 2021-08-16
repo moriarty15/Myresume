@@ -19,9 +19,13 @@
 li {
   list-style: none;
 }
-ul {
+ul,
+ol {
   padding: 0;
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
 .contact li a {
   text-decoration: none;
@@ -66,7 +70,7 @@ ul {
   width: 200px;
 }
 /*  пример анимации в сss */
-@keyframes changeBGC {
+/* @keyframes changeBGC {
   0% {
     background-color: teal;
   }
@@ -76,7 +80,7 @@ ul {
   100% {
     background-color: orange;
   }
-}
+} */
 body {
   animation-name: changeBGC;
   animation-duration: 3000ms;
