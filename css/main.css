@@ -67,7 +67,6 @@ img {
 @media screen and (min-width: 320px) {
   .hero__photo {
     width: 300px;
-    margin-bottom: 20px;
   }
   .container {
     max-width: 320px;
@@ -86,7 +85,7 @@ img {
 .left-side {
   background-color: #272763;
   color: white;
-  padding-bottom: 20px;
+  padding: 35px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,10 +100,6 @@ img {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.4;
-}
-
-.contact {
-  text-decoration: underline;
 }
 
 .contact__link {
@@ -150,7 +145,6 @@ img {
   }
   .hero__photo {
     margin: 0;
-    margin-bottom: 20px;
   }
   .left-side {
     display: block;
@@ -158,5 +152,14 @@ img {
   .info__item:not(:last-child) {
     margin-bottom: 15px;
   }
+}
+
+.info__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.skills__item:not(:last-child),
+.contact__item:not(:last-child) {
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */
