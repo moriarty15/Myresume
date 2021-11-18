@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tangerine:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>remuse Palamov Vladimir</title>
 </head>
 
@@ -18,12 +17,29 @@
     <main>
         <div class="container">
             <section class="section__advantages">
-                <h1 class="hero__title">Vladimir Palamov</h1>
-                <p class="jobs-time">FRONTEND DEVELOPER <br> Инженер Путей Сообщения</p>
-                <a href=""><img class="hero__photo" src="./img/photo_2021-01-29_10-19-52.jpg" alt="My photo"
-                        width="370"></a>
+                <img class="hero__photo" src="./img/photo.jpg" alt="My photo" width="370" />
                 <aside class="left-side">
                     <ul class="info__list">
+                        <li class="info__item">
+                            <h2 class="info__title">Contacts</h2>
+                            <ul class="contact">
+                                <li class="contact__item">
+                                    <span class="contact__title">Phone:</span>
+                                    <a class="contact__link" href="tel:89246097631">
+                                        89246097631</a>
+                                </li>
+                                <li class="contact__item">
+                                    <span class="contact__title">Email:</span>
+                                    <a class="contact__link" href=" mailto:vladmir_palamov@mail.ru"
+                                        target="_blank">vladmir_palamov@mail.ru</a>
+                                </li>
+                                <li class="contact__item">
+                                    <span class="contact__title">Git:</span>
+                                    <a class="contact__link" href=" https://github.com/moriarty15"
+                                        target="_blank">github.com/moriarty15</a>
+                                </li>
+                            </ul>
+                        </li>
                         <li class="info__item">
                             <h2 class="info__title">Tech skills</h2>
                             <ul class="skills__list">
@@ -31,23 +47,21 @@
                                 <li class="skills__item">CSS</li>
                                 <li class="skills__item">JS</li>
                                 <li class="skills__item">React</li>
-                                <li class="skills__item">Redux</li>
-
                             </ul>
                         </li>
                         <li class="info__item">
                             <h2 class="info__title">Soft skills</h2>
                             <ul class="skills__list">
-                                <li class="skills__item">Scrum</li>
                                 <li class="skills__item">Teamwork</li>
+                                <li class="skills__item">Scrum</li>
                                 <li class="skills__item">Agile</li>
                             </ul>
                         </li>
                         <li class="info__item">
                             <h2 class="info__title">Language</h2>
                             <ul>
-                                <li class="skills__item">Native</li>
-                                <li class="skills__item">English - Way stage or elementary</li>
+                                <li class="skills__item">Native - русский</li>
+                                <li class="skills__item">English - Elementary</li>
                             </ul>
                         </li>
                         <li class="info__item">
@@ -58,128 +72,145 @@
                                 <li class="skills__item">Chess</li>
                             </ul>
                         </li>
-                        <li class="info__item">
-                            <h2 class="info__title">Contacts</h2>
-                            <ul class="contact">
-                                <li class="contact__item">Phone: <a class="contact__link" href="tel:89246097631">
-                                        89246097631</a>
-                                </li>
-                                <li class="contact__item">Email: <a class="contact__link"
-                                        href=" mailto:vladmir_palamov@mail.ru">vladmir_palamov@mail.ru</a></li>
-                                <li class="contact__item">Github: <a class="contact__link"
-                                        href=" https://github.com/moriarty15" target="_blank">github.com/moriarty15</a>
-                                </li>
-                            </ul>
-                        </li>
                     </ul>
+                    <!-- <a href="#" download="">текст ссылки</a> -->
                 </aside>
             </section>
             <div class="history__section">
                 <section class="section__container">
-                    <h2 class="e1">Employment History</h2>
-                    <h3>ОАО РЖД <span class="accent">старший электромеханик ШЧ-3 ВСЖД</span> </h3>
+                    <h1 class="hero__title">Vladimir Palamov</h1>
+                    <h3 class="jobs-time">FRONTEND DEVELOPER</h3>
+                    <p class="motivation">
+                        Привет, я Junion Front-End Developer. Мне очень нравится
+                        разработка, и хоть я нахожусь в начале своего пути, настроен
+                        изучать новые технологии, а также оттачивать свои навыки до
+                        совершенства!
+                    </p>
+                    <section>
+                        <h3 class="pro1">Командные проекты</h3>
+                        <ol>
+                            <li class="project__item">
+                                <a class="project__link" href="https://aleksandr-a163.github.io/filmoteka/"
+                                    target="_blank">
+                                    Filmoteka -
+                                    <span class="project__link__description">Проект по поиску фильмов и добавлению
+                                        любимых в личную
+                                        библиотеку, так же есть возможность просматривать трейлеры
+                                        к фильмам</span>
+                                </a>
+                            </li>
+                            <li class="project__item">
+                                <a class="project__link"
+                                    href="https://sergeysharashkin.github.io/goit-markup-comand-prog-01/"
+                                    target="_blank">
+                                    Ice cream -
+                                    <span class="project__link__description">Сайт компании по продаже мороженного</span>
+                                </a>
+                            </li>
+                        </ol>
+                        <h3 class="pro1">Личные проекты</h3>
+                        <ol>
+                            <li class="project__item">
+                                <a class="project__link" href="https://morty-netlify-tutorial.netlify.app/"
+                                    target="_blank">
+                                    Made films -
+                                    <span class="project__link__description">Проект по просмотру деталей о
+                                        фильмах(информация об
+                                        актерском составе, отзывах, возможность посмотреть трейлер
+                                        к фильму)</span>
+                                </a>
+                            </li>
+                            <li class="project__item">
+                                <a class="project__link" href="https://moriarty15.github.io/goit-markup-hw-08/"
+                                    target="_blank">
+                                    Studio -
+                                    <span class="project__link__description">Сайт Веб-студии по разработке сайтов</span>
+                                </a>
+                            </li>
+                            <li class="project__item">
+                                <a class="project__link"
+                                    href="https://moriarty15.github.io/goit-react-hw-04-hooks-images/" target="_blank">
+                                    Search Images -
+                                    <span class="project__link__description">Сайт по поиску избражений и фото по
+                                        ключевому слову</span>
+                                </a>
+                            </li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h3 class="education__title">Образование</h3>
+                        <div class="contain__educ">
+                            <div class="contain-st">
+                                <a href="https://goit.ua/" target="_blank" class="education__link">
+                                    <img src="img/unnamed.jpg" alt="emb1" width="80" />
+                                    <span class="project__link">Курсы программирования GoIT</span>
+                                </a>
+
+                                <h3>
+                                    Front-end Developer,
+                                    <span class="accent">GoIT Courses</span>
+                                </h3>
+                                <p>March 2021 - Until now</p>
+                            </div>
+                            <div class="contain__study">
+                                <a href="https://www.irgups.ru/" target="_blank" class="education__link link__irgups">
+                                    <img src="./img/logo.png" alt="emb" class="logo__irgups" />
+                                    <span class="project__link title__irgups">ИРКУТСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ
+                                        ПУТЕЙ
+                                        СООБЩЕНИЯ</span>
+                                </a>
+                                <h3>Инженер Путей Сообщения</h3>
+
+                                <p>September 2011 - June 2016</p>
+                            </div>
+                        </div>
+                    </section>
+                    <h3 class="e1">Трудовой опыт</h3>
+                    <h3>Компания ОАО РЖД, занимаемые должности:</h3>
+                    <ul>
+                        <li>
+                            <p class="accent">электромонтер ШЧ-3 ВСЖД</p>
+                        </li>
+                        <li>
+                            <p class="accent">электромеханик ШЧ-3 ВСЖД</p>
+                        </li>
+                        <li>
+                            <p class="accent">старший электромеханик ШЧ-3 ВСЖД</p>
+                        </li>
+                    </ul>
                     <p>October 2016 - December 2021</p>
+                    <p class="e1__title">Обязанности:</p>
                     <ul class="contain">
                         <li class="contain__item">
                             <p class="text_decor">
                                 Планирование графиков технического процесса по выполнению
-                                технического обслуживания и ремонта устройств СЦБ.
+                                технического обслуживания и ремонта устройств железнодорожного
+                                автоматики и телемеханики.
                             </p>
-                            <ul class="points__list">
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                            </ul>
                         </li>
                         <li class="contain__item">
-                            <p class="text_decor">Внесение изменений в действующие устройства согласно
-                                рационализаторских
-                                предложений.</p>
-                            <ul class="points__list">
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                            </ul>
+                            <p class="text_decor">
+                                Внесение изменений в действующие устройства согласно
+                                рационализаторских предложений.
+                            </p>
                         </li>
                         <li class="contain__item">
-                            <p class="text_decor">Выполнение оперативных приказов и распоряжений вышестоящего
-                                руководства.</p>
-                            <ul class="points__list">
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                                <li class="points__item"></li>
-                            </ul>
+                            <p class="text_decor">
+                                Выполнение оперативных приказов и распоряжений вышестоящего
+                                руководства.
+                            </p>
                         </li>
                         <li class="contain__item">
-                            <p class="text_decor">Работа в электроустановках до 1000В, 4 группа по электробезопасности.
+                            <p class="text_decor">
+                                Работа в электроустановках до 1000В, 4 группа по
+                                электробезопасности.
                             </p>
                         </li>
                     </ul>
                 </section>
-                <section class="section__container">
-                    <h2 class="education__title">Education</h2>
-                    <div class="contain__educ">
-                        <div class="contain__study">
-                            <img src="./img/logo.png" alt="emb">
-                            <h3>Инженер Путей Сообщения,</h3>
-                            <h3 class="accent">ИРКУТСКИЙ ГОСУДАРСТВЕННЫЙ
-                                УНИВЕРСИТЕТ ПУТЕЙ
-                                СООБЩЕНИЯ</h3>
-                            <p>September 2011 - June 2016</p>
-                        </div>
-                        <div class="contain-st">
-                            <img src="img/unnamed.jpg" alt="emb1" width="80">
-                            <h3>Front-end Developer, <span class="accent">GoIT Courses</span></h3>
-                            <p>March 2021 - Until now</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="section__container">
-                    <h2 class="pro1">Teams Projects</h2>
-                    <ol>
-                        <li>
-                            <a class="project__link" href="https://aleksandr-a163.github.io/filmoteka/" target="_blank">
-                                1. filmoteka
-                            </a>
-                        </li>
-                        <li>
-                            <a class="project__link"
-                                href="https://sergeysharashkin.github.io/goit-markup-comand-prog-01/" target="_blank">
-                                2. ice_cream site
-                            </a>
-                        </li>
-                    </ol>
-                    <h2 class="pro1">Own Projects</h2>
-                    <ol>
-                        <li>
-                            <a class="project__link" href="https://morty-netlify-tutorial.netlify.app/" target="_blank">
-                                1. react project
-                            </a>
-                        </li>
-                        <li>
-                            <a class="project__link" href="https://moriarty15.github.io/goit-markup-hw-08/"
-                                target="_blank">
-                                1. my first avaptive project
-                            </a>
-                        </li>
-                        <li>
-                            <a class="project__link" href="https://moriarty15.github.io/NotesVanilaJS/" target="_blank">
-                                2. My first App Notes
-                            </a>
-                        </li>
-                        <li>
-                            <a class="project__link" href="https://moriarty15.github.io/goit-js-hw-13-image-finder/"
-                                target="_blank">
-                                3. search images
-                            </a>
-                        </li>
-                    </ol>
-
-                </section>
             </div>
         </div>
     </main>
-
 </body>
 
 </html>
