@@ -214,7 +214,7 @@ img {
 }
 
 .info__item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 .skills__item:not(:last-child),
