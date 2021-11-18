@@ -222,4 +222,8 @@ img {
 .contact__item:not(:last-child) {
   margin-bottom: 5px;
 }
+
+.info__list {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */
